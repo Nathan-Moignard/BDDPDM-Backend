@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "CIS_CIP_bdpm",
+  "info": {
+    "name": "CIS_CIP_bdpm",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CIS": {
+      "type": "biginteger",
+      "required": true
+    },
+    "CIP7": {
+      "type": "integer",
+      "required": false
+    },
+    "Libelle": {
+      "type": "string"
+    },
+    "StatusAdm": {
+      "type": "string"
+    },
+    "EtatCommercialisation": {
+      "type": "string"
+    },
+    "DateCommercialisation": {
+      "type": "string"
+    },
+    "CIP13": {
+      "type": "biginteger"
+    },
+    "AgrementCollectivites": {
+      "type": "string"
+    },
+    "TauxRemboursement": {
+      "type": "string"
+    },
+    "TBD1": {
+      "type": "string"
+    },
+    "TBD2": {
+      "type": "string"
+    },
+    "TBD3": {
+      "type": "string"
+    },
+    "IndicationsRemboursement": {
+      "type": "string"
+    }
+  }
+}

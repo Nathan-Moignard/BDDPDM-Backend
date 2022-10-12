@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cis-cip-bdpms",
+      "handler": "cis-cip-bdpm.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cis-cip-bdpms/count",
+      "handler": "cis-cip-bdpm.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cis-cip-bdpms/:id",
+      "handler": "cis-cip-bdpm.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cis-cip-bdpms",
+      "handler": "cis-cip-bdpm.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cis-cip-bdpms/:id",
+      "handler": "cis-cip-bdpm.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cis-cip-bdpms/:id",
+      "handler": "cis-cip-bdpm.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "CIS_bdpm",
+  "info": {
+    "name": "CIS_bdpm",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CIS": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Denomination": {
+      "type": "text",
+      "required": false
+    },
+    "Forme": {
+      "type": "string"
+    },
+    "Administration": {
+      "type": "string"
+    },
+    "StatusAdm": {
+      "type": "string"
+    },
+    "ProcedureAut": {
+      "type": "string"
+    },
+    "Commercialisation": {
+      "type": "string"
+    },
+    "DateAMM": {
+      "type": "string"
+    },
+    "StatusBdm": {
+      "type": "string"
+    },
+    "Autorisation": {
+      "type": "string"
+    },
+    "Titulaires": {
+      "type": "string"
+    },
+    "Surveillance": {
+      "type": "string"
+    }
+  }
+}

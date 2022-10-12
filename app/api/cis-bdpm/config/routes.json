@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cis-bdpms",
+      "handler": "cis-bdpm.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cis-bdpms/count",
+      "handler": "cis-bdpm.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cis-bdpms/:id",
+      "handler": "cis-bdpm.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cis-bdpms",
+      "handler": "cis-bdpm.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cis-bdpms/:id",
+      "handler": "cis-bdpm.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cis-bdpms/:id",
+      "handler": "cis-bdpm.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

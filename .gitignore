@@ -1,0 +1,10 @@
+# Env File
+.env
+
+# DB Folder
+data/
+
+# Strapi Modules & Build Folders
+app/public/
+app/build/
+app/node_modules/
